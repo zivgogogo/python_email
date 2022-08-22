@@ -5,9 +5,9 @@ from email.mime.text import MIMEText
 smtp_server = 'smtp.163.com'  # smtp服务器
 port = 25  # SMTP协议默认端口为25
 
-from_address = 'wangjiaheng666@163.com'  # 邮件发件人,改成自己的就行
-password = 'RROEVRPMKOFPTZGN'  # 密码或邮箱授权码，这个是你的邮箱密码或者授权码，在
-to_address = 'wangjiahenglalala@163.com'  # 邮件收件人，想发给谁
+from_address = '自己的邮箱'  # 邮件发件人,改成自己的就行
+password = '自己邮箱的授权码'  # 密码或邮箱授权码，这个是你的邮箱密码或者授权码，在
+to_address = '邮件收件邮箱'  # 邮件收件人，想发给谁
 
 subject = 'Python 邮件测试'  # 邮件主题
 content = '这是使用python smtplib+email自动发送的邮件'  # 邮件正文

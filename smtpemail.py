@@ -1,7 +1,7 @@
 import smtplib
 from getpass import getpass
-EMAIL_ADDRESS = "wangjiaheng666@163.com"
-EMAIL_PASSWORD = "RROEVRPMKOFPTZGN"
+EMAIL_ADDRESS = "自己的邮箱"
+EMAIL_PASSWORD = "自己邮箱的授权码"
 
 smtp = smtplib.SMTP('smtp.163.com',25)
 import ssl
